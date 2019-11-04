@@ -20,6 +20,8 @@ public class Drop_downs {
 	    //driver.findElement(By.xpath("//a[@value='GOI']")).click();
 	    //This is parent child relationship
 	    driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='GOI']")).click();
+	    driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='GOI']")).click();
+	    driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='GOI']")).click();
 	    driver.findElement(By.id("ctl00_mainContent_ddl_destinationStation1_CTXTaction")).click();
 	    driver.findElement(By.xpath("(//a[@value='HYD'])[2]")).click();
 	   
